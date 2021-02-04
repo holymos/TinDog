@@ -127,8 +127,35 @@ p {
   margin-bottom: 50px;
 }
 
+.pricing-block {
+  margin: 0 0 100px;
+}
+
 .text-spacing {
   margin-bottom: 57px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #f0f0f0;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
 
 /* Media Queries */
