@@ -88,11 +88,15 @@ p {
 }
 
 .feature-block {
-  padding: 50px;
+  padding: 50px 50px 0;
 }
 
-.features-title {
+.feature-title {
   font-size: 1.5rem;
+}
+
+.feature-text {
+  margin-bottom: 0;
 }
 
 .icon {
@@ -104,6 +108,8 @@ p {
 .icon:hover {
   color: #ff6f6b;
 }
+
+/* Testimonial */
 
 .testimonial-img {
   width: 10%;
@@ -117,13 +123,13 @@ p {
 }
 
 /* Press section */
-#press {
-  padding-bottom: 3%;
+#press .container-fluid {
+  padding: 8% 15% 4%;
 }
 
 #press img {
-  width: 15%;
-  margin: 20px 20px 50px;
+  width: 75%;
+  margin: 10px 10px 0;
 }
 
 .text-price {
@@ -161,7 +167,13 @@ p {
 }
 
 @media (max-width: 995px) {
-  #title {
+  .big-heading {
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  #title .container-fluid {
+    padding: 3% 15% 7%;
     text-align: center;
   }
 
@@ -174,5 +186,58 @@ p {
 
   .card-block {
     margin-bottom: 50px;
+  }
+
+  .download-btn {
+    width: 275px;
+    height: 90px;
+  }
+
+  .icon {
+    font-size: 8rem;
+    color: #ff4c68;
+    margin-bottom: 20px;
+  }
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  .feature-block {
+    padding: 50px 50px;
+  }
+
+  .feature-text {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .testimonial-sign {
+    font-size: 1.5rem;
+  }
+
+  .pricing-title {
+    font-size: 3.5rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 2rem;
+  }
+
+  .card-header h3 {
+    font-size: 2.5rem;
+  }
+
+  .card-body h3 {
+    font-size: 2rem;
+  }
+
+  .card-body p {
+    font-size: 1.5rem;
   }
 }
